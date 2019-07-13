@@ -6,13 +6,13 @@ public class bulletScript : MonoBehaviour
 {
 
 	// Use this for initialization
-	Rigidbody2D rb2d;
+	//Rigidbody2D rb2d;
 	GameObject player;
 	SpriteRenderer ren;
 
 	void Start ()
 	{
-		rb2d = GetComponent<Rigidbody2D> ();
+		//rb2d = GetComponent<Rigidbody2D> ();
 		Invoke ("DestroySelf", 1f);
 	}
 	

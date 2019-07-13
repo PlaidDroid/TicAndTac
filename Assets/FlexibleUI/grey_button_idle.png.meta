@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 69bba6ac87644ab44ab4ce1eddb8769b
-timeCreated: 1562091992
+guid: befc1fae82a37764cb6e0b2570514f10
+timeCreated: 1562246062
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: characterdesign 1_0
-    21300002: characterdesign 1_1
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -30,13 +28,13 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,43 +58,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: characterdesign 1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 4173
-        width: 5747
-        height: 3440
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: characterdesign 1_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5747
-        height: 3440
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 

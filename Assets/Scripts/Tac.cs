@@ -6,7 +6,7 @@ public class Tac : MonoBehaviour
 {
 
 	// Use this for initialization
-	private int health = 5;
+	private int health = 10;
 
 	//materials
 	private Material matRed;
@@ -16,6 +16,8 @@ public class Tac : MonoBehaviour
 	Rigidbody2D rb2d;
 	Object bulletRef;
 	private int bulletcount;
+	private float fireRate = 1f;
+	private float nextFire;
 
 	void Start ()
 	{
@@ -25,7 +27,7 @@ public class Tac : MonoBehaviour
 		bulletRef = Resources.Load ("bullet");
 
 		rb2d.freezeRotation = true;
-		matRed = Resources.Load ("characterdesign 1_1", typeof(Material))as Material;
+		matRed = Resources.Load ("RedFlash", typeof(Material))as Material;
 		defMat = ren.material;
 	}
 
@@ -56,17 +58,27 @@ public class Tac : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
+		//flipping
 		Rigidbody2D r = player.GetComponent<Rigidbody2D> ();
 		if (r.position.x - transform.position.x < 0) {
 			ren.flipX = true;
 		} else {
 			ren.flipX = false;
 		}
-		if (Mathf.Abs (r.position.x - transform.position.x) < 10) {
+
+		//shoot in range
+		Vector2 x = transform.position;
+		if (Mathf.Abs (r.position.x - transform.position.x) <= 10 && Time.time > nextFire) {
+			//jump to character
+			if (r.position.y > transform.position.y) {
+				rb2d.velocity = new Vector2 (0, (r.position.y - transform.position.y) + 10f);
+			}
+			nextFire = Time.time + fireRate;
 			GameObject bullet = (GameObject)Instantiate (bulletRef);
 			Rigidbody2D r2 = bullet.GetComponent<Rigidbody2D> ();
+
 			if (ren.flipX == true) {				
 				r2.velocity = new Vector2 (-20, 0);
 				bullet.transform.position = new Vector3 (transform.position.x - 1.5f, transform.position.y + .1f, -1);
@@ -74,11 +86,19 @@ public class Tac : MonoBehaviour
 				r2.velocity = new Vector2 (20, 0);
 				bullet.transform.position = new Vector3 (transform.position.x + 1.5f, transform.position.y + .1f, -1);
 			}
-			bulletcount++;
-			WaitForSeconds g=new WaitForSeconds(1);
 			
-		} else {
-			bulletcount = 0;
 		}
+		//enemy moves towards the character
+		else if (r.position.x - transform.position.x < -10) {
+			x.x -= 0.05f;
+		} else if (r.position.x - transform.position.x > 10) {
+			x.x += 0.05f;
+		}
+		transform.position = x;
+	}
+
+	void OnCollisionEnter2D (Collision2D collision)
+	{
+		rb2d.velocity = Vector2.zero;
 	}
 }

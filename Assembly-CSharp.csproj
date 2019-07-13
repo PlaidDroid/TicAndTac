@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{22F44157-65AD-49E3-6261-888B075EE6F4}</ProjectGuid>
+    <ProjectGuid>{EC85223C-5F0F-1F9D-B45A-9D9BC3BA2DEC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,12 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FlexibleUI\Scripts\FlexibleUI.cs" />
+     <Compile Include="Assets\FlexibleUI\Scripts\FlexibleUIButton.cs" />
+     <Compile Include="Assets\FlexibleUI\Scripts\FlexibleUIData.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Ground.cs" />
      <Compile Include="Assets\Scripts\Tac.cs" />
      <Compile Include="Assets\Scripts\Tic.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\bulletScript.cs" />
      <Compile Include="Assets\Scripts\repeatingbg.cs" />
+     <Compile Include="Assets\Scripts\spawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

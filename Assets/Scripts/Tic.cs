@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class Tic : MonoBehaviour
 {
-
+	private static int health = 20;
 	// Use this for initialization
+	private Material matRed;
+	private Material defMat;
+
 	Object bulletRef;
 	private Rigidbody2D rb2d;
 	private float jumpForce = 10f;
-	private float forwardForce = 10f;
-	private float backwardForce = 15f;
+	//private float forwardForce = 10f;
+	//private float backwardForce = 15f;
 	SpriteRenderer ren;
 	private int jumpctr = 0;
 
@@ -20,6 +23,8 @@ public class Tic : MonoBehaviour
 		bulletRef = Resources.Load ("bullet");
 		rb2d = GetComponent<Rigidbody2D> ();
 		rb2d.freezeRotation = true;
+		matRed = Resources.Load ("RedFlash", typeof(Material))as Material;
+		defMat = ren.material;
 	}
 	
 	// Update is called once per frame
@@ -53,7 +58,7 @@ public class Tic : MonoBehaviour
 			}
 		}
 		if(Input.GetKeyDown(KeyCode.S)){
-			rb2d.AddForce(Vector2.down);
+			rb2d.velocity = new Vector2 (0, -jumpForce);
 		}
 		if (Input.GetButtonDown ("Fire1")) {
 			GameObject bullet = (GameObject)Instantiate (bulletRef);
@@ -62,7 +67,7 @@ public class Tic : MonoBehaviour
 				r2.velocity= new Vector2 (-20, 0);
 				bullet.transform.position = new Vector3 (transform.position.x - 1.5f, transform.position.y + .1f, -1);
 			} else {
-				rb2d.velocity = new Vector2 (20, 0);
+				r2.velocity = new Vector2 (20, 0);
 				bullet.transform.position = new Vector3 (transform.position.x + 1.5f, transform.position.y + .1f, -1);
 			}
 		}
@@ -72,5 +77,34 @@ public class Tic : MonoBehaviour
 	{
 		rb2d.velocity = Vector2.zero;
 		jumpctr = 0;
+	}
+
+	private void OnTriggerEnter2D (Collider2D collision)
+	{
+		if (collision.CompareTag ("bullet")) {
+			Destroy (collision.gameObject);
+			health--;
+			ren.material = matRed;
+			if (health <= 0) {
+				KillSelf ();
+
+			} else {
+				Invoke ("ResetMaterial", .2f);
+
+			}
+		}
+	}
+	void ResetMaterial ()
+	{
+		ren.material = defMat;
+	}
+	void KillSelf ()
+	{
+		//Time.timeScale = 0;
+		//Application.Quit();
+		Destroy (gameObject);
+	}
+	public int getHealth(){
+		return health;
 	}
 }

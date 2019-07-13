@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="grey_button_ui.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.99895834"
+     inkscape:cx="408.55301"
+     inkscape:cy="669.35214"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g946-1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="translate(-50.898793,21.668023)"
+       id="g942">
+      <g
+         transform="translate(7.5017478,19.167884)"
+         id="g962">
+        <rect
+           style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815"
+           width="49.892857"
+           height="44.979168"
+           x="42.333332"
+           y="151.85713"
+           ry="12.4"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000" />
+        <rect
+           style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-5"
+           width="49.892857"
+           height="44.979168"
+           x="42.333336"
+           y="147.62386"
+           ry="12.400001"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000" />
+      </g>
+    </g>
+    <g
+       id="g906"
+       transform="translate(-42.043477,38.999828)">
+      <g
+         id="g946">
+        <rect
+           style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-5-4"
+           width="49.892857"
+           height="44.979168"
+           x="99.89666"
+           y="148.11894"
+           ry="12.400002"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000" />
+        <rect
+           style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-9"
+           width="49.892857"
+           height="44.979168"
+           x="99.89666"
+           y="147.06061"
+           ry="12.400001"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000" />
+      </g>
+    </g>
+    <g
+       id="g914"
+       transform="translate(-45.788364,33.398815)">
+      <g
+         id="g950">
+        <rect
+           style="opacity:1;fill:#585858;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-8"
+           width="49.892857"
+           height="44.979168"
+           x="107.08471"
+           y="219.16411"
+           ry="12.400001"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000"
+           inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_disabled.png" />
+        <rect
+           style="opacity:1;fill:#6e6e6e;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-5-2"
+           width="49.892857"
+           height="44.979168"
+           x="107.08472"
+           y="214.93083"
+           ry="12.400002"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000"
+           inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_disabled.png" />
+      </g>
+    </g>
+    <g
+       id="g910"
+       transform="translate(-44.001801,29.860119)">
+      <rect
+         inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_highlighted.png"
+         inkscape:export-ydpi="1000"
+         inkscape:export-xdpi="1000"
+         ry="12.400001"
+         y="221.03499"
+         x="44.810917"
+         height="44.979168"
+         width="49.892857"
+         id="rect815-81"
+         style="opacity:1;fill:#0b0b0b;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_highlighted.png"
+         inkscape:export-ydpi="1000"
+         inkscape:export-xdpi="1000"
+         ry="12.400002"
+         y="216.80171"
+         x="44.810921"
+         height="44.979168"
+         width="49.892857"
+         id="rect815-5-0"
+         style="opacity:1;fill:#242424;fill-opacity:1;stroke:none;stroke-width:0.46499997;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g910-2"
+       transform="translate(-8.3406648,-254.66825)"
+       inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_idle.png"
+       inkscape:export-xdpi="1000"
+       inkscape:export-ydpi="1000">
+      <g
+         id="g998"
+         transform="translate(11.124088,61.447341)">
+        <rect
+           style="opacity:1;fill:#0b0b0b;fill-opacity:1;stroke:none;stroke-width:0.68632799;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-81-6"
+           width="108.6916"
+           height="44.979168"
+           x="44.810898"
+           y="221.03499"
+           ry="12.400001"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000"
+           inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_highlighted.png" />
+        <rect
+           style="opacity:1;fill:#242424;fill-opacity:1;stroke:none;stroke-width:0.68632799;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect815-5-0-4"
+           width="108.6916"
+           height="44.979168"
+           x="44.810905"
+           y="216.80171"
+           ry="12.400002"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000"
+           inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_highlighted.png" />
+      </g>
+    </g>
+    <g
+       id="g906-7"
+       transform="translate(-52.302339,-120.30486)">
+      <g
+         id="g946-1">
+        <g
+           id="g1026"
+           transform="translate(-5.0323253,1.5891554)"
+           inkscape:export-filename="C:\Users\akhil\Documents\TicTacToe\Assets\FlexibleUI\grey_button_pressed.png"
+           inkscape:export-xdpi="1000"
+           inkscape:export-ydpi="1000">
+          <rect
+             inkscape:export-ydpi="1000"
+             inkscape:export-xdpi="1000"
+             ry="12.691768"
+             y="204.27357"
+             x="103.33984"
+             height="46.037506"
+             width="108.69158"
+             id="rect815-5-4-3"
+             style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.69435549;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <rect
+             inkscape:export-ydpi="1000"
+             inkscape:export-xdpi="1000"
+             ry="12.400001"
+             y="204.27357"
+             x="103.66058"
+             height="44.979168"
+             width="108.37084"
+             id="rect815-9-6"
+             style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.68531454;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
